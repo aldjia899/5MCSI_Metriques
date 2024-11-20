@@ -8,7 +8,7 @@ import sqlite3
 app = Flask(__name__)    
 
 @app.route("/rapport2/")
-def mongraphique():
+def monhistogramme():
     return render_template("histogramme.html")
 
 @app.route("/rapport/")
